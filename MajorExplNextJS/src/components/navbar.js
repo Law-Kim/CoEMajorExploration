@@ -49,11 +49,15 @@ const Navbar = () => {
         </h1>
       </div>
 
+    <div>
+      <h1 className="text-black text-xl">CoE Majors Exploration Tool</h1>
+    </div>
+
       <ul className="hidden md:flex">
         {links.map(({ id, link, label }) => (
           <li
             key={id}
-            className="nav-links px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 hover:text-white duration-200 link-underline"
+            className="nav-links px-5 cursor-pointer capitalize text-xl text-black hover:scale-105 hover:text-white duration-200 link-underline"
           >
             <Link href={link}>{label}</Link>
           </li>

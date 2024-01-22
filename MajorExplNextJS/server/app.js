@@ -4,8 +4,7 @@ app.use(express.json());
 require('dotenv').config()
 
 const { MongoClient, Collection } = require("mongodb");
-const uri = "mongodb://coe_admin:" + process.env.MONGODB_KEY + "@cs46x.l19wpnk.mongodb.net/?retryWrites=true&w=majority";
-console.log(uri)
+const uri = "mongodb+srv://coe_admin:" + process.env.MONGODB_KEY + "@cs46x.l19wpnk.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri);
 
 const database = client.db('CoE');

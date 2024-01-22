@@ -34,15 +34,15 @@ app.get('/questions', async (request, response) => {
 // Create a question using this endpoint
 // Use a question string and weight in request body to update the DB 
 app.post('/create/question', async (request, response) => {
+  // TO FIX: 403 Error handling for duplicate question name
+  // if (Questions.find({"name": request.body.name}).limit(1).length === 0) {
+  //   return response.send('Question already exists')
+  // }
   if (request.body) {
     const body = request.body;
     const question = body.question;
     const weight = body.weight;
     const name = body.name;
-    // 403 Error handling for duplicate question name
-    if (Questions.find({"name": name}).limit(1).length === 1) {
-      return response.send('A question with this name already exists.').status(403);
-    }
     const query = {
       question, 
       weight,

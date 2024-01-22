@@ -3,8 +3,9 @@ const app = express();
 app.use(express.json());
 require('dotenv').config()
 
-const { MongoClient } = require("mongodb");
-const uri = "mongodb+srv://coe_admin:" + process.env.MONGODB_KEY + "@cs46x.l19wpnk.mongodb.net/?retryWrites=true&w=majority";
+const { MongoClient, Collection } = require("mongodb");
+const uri = "mongodb://coe_admin:" + process.env.MONGODB_KEY + "@cs46x.l19wpnk.mongodb.net/?retryWrites=true&w=majority";
+console.log(uri)
 const client = new MongoClient(uri);
 
 const database = client.db('CoE');
@@ -38,9 +39,15 @@ app.post('/create/question', async (request, response) => {
     const body = request.body;
     const question = body.question;
     const weight = body.weight;
+    const name = body.name;
+    // 403 Error handling for duplicate question name
+    if (Questions.find({"name": name}).limit(1).length === 1) {
+      return response.send('A question with this name already exists.').status(403);
+    }
     const query = {
       question, 
-      weight
+      weight,
+      name
     };
     await Questions.insertOne(query);
     response.send('Created Question').status(200);
@@ -50,28 +57,26 @@ app.post('/create/question', async (request, response) => {
 });
 
 // Update Function
-// TODO: Will need a more reliable way of flagging the questions
 // TODO: Need to add error handling
 
-app.put('/update/question/:id', async (request, response) => {
-  const id = request.params.id;
-  const query = {id};
+app.put('/update/question/:name', async (request, response) => {
+  const name = request.params.name;
+  const query = {name};
   const question = request.body.question;
   const weight = request.body.weight;
   const newData = {question, weight};
-  // Create new entry option if id does not exist
+  // Create new entry option if question name does not exist
   const options = { upsert: true };
   await Questions.updateOne(query, newData, options);
   response.send('Updated Question').status(200);
 });
 
 // Delete Function
-// TODO: Also will need a reliable way of marking/flagging the questions to delete
 // TODO: Error handling
 
-app.delete('/delete/question/:id', async (request, response) => {
-  const id = request.params.id;
-  const query = {id};
+app.delete('/delete/question/:name', async (request, response) => {
+  const name = request.params.name;
+  const query = {name};
   await Questions.deleteOne(query);
   response.send('Deleted Question').status(200);
 });

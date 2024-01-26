@@ -50,7 +50,7 @@ const Navbar = () => {
       </div>
 
     <div>
-      <h1 className="text-black text-xl">CoE Majors Exploration Tool</h1>
+      <h1 className="text-black text-xl items-center">CoE Majors Exploration Tool</h1>
     </div>
 
       <ul className="hidden md:flex">

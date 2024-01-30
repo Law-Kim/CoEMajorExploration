@@ -1,10 +1,79 @@
 [
+
+    {
+      "name": "Architectural Engineering",
+      "campus": "Offered at the Corvallis Campus",
+      "degreesOffered": "B.S and H.B.S",
+      "mathRequirements": "Differential Calculus, Integral Calculus, Vector Calculus I, Applied Differential Equations, Introduction to Matrix Algebra, Introduction to Series",
+      "samplePlan": "https://engineering.oregonstate.edu/sites/engineering.oregonstate.edu/files/2023-06/2023-2024_are_bubble_sheet.pdf"
+    },
+    {
+      "name": "Bioengineering",
+      "campus": "Offered at the Corvallis Campus",
+      "degreesOffered": "B.A. B.S. H.B.A. H.B.S.",
+      "mathRequirements": "Differential Calculus, Integral Calculus, Vector Calculus I",
+      "samplePlan": "https://engineering.oregonstate.edu/sites/engineering.oregonstate.edu/files/2023-10/bioengineering_23-24.pdf"
+    },
+    {
+      "name": "Chemical Enginering",
+      "campus": "Offered on the Corvallis Campus"
+    },
     {
       "name": "Computer Science",
-      "description": "Great starting salary"
+      "campus": "Great starting salary"
+    },
+    {
+      "name": "Construction Engeering Management",
+      "campus": "Offered on the Corvallis Campus and Ecampus"
+    },
+    {
+      "name": "Ecological Engineering",
+      "campus": "Offered on the Corvallis Campus"
     },
     {
       "name": "Electrical Engineering",
-      "description": "Solder burns here we come!"
+      "campus": "Solder burns here we come!"
+    },
+    {
+      "name": "Electrical and Computer Engineering",
+      "campus": "Offered at the Corvallis Campus"
+    },
+
+    {
+      "name": "Energy Systems Engineering",
+      "campus": "Offered at the OSU-Cascades Campus"
+    },
+    {
+      "name": "Engineering Science",
+      "Ccmpus": "Offered at the OSU-Cascades Campus"
+    },
+    {
+      "name": "Environmental Engineering",
+      "campus": "Offered at the Corvallis Campus"
+    },
+    {
+      "name": "Industrial Engineering",
+      "campus": "Offered at the Corvallis Campus"
+    },
+    {
+      "name": "Manufacturing Engineering",
+      "campus": "Offered at the Corvallis Campus"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "Campus": "Offered on the Corvallis Campus and Ecampus"
+    },
+    {
+      "name": "Nuclear Engineering",
+      "Campus": "Offered at the Corvallis Campus"
+    },
+    {
+      "name": "Outdoor Products",
+      "campus": "Offered at the OSU-Cascades Campus"
+    },
+    {
+      "name": "Radiation Health Physics",
+      "campus": "Offered at the Corvallis Campus and Ecampus"
     }
+    
   ]

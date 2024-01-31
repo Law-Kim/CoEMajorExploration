@@ -31,6 +31,11 @@ const Navbar = () => {
       link: "quiz",
       label: "Quiz",
     },
+    {
+      id: 5,
+      link: "admin",
+      label: "Admin",
+    }
   ];
 
   return (

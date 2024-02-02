@@ -3,14 +3,26 @@
 import Image from "next/image";
 import quiz from '/src/components/quiz.png'
 import { useState } from 'react'
+import majorsList from './majorsList.json'
+
+//https://codepen.io/amyfu/pen/kPVYLr
 
 export default function Home() {
 
-  const sayHello = (event) => {
-    alert("Hello")
-    ;
+  const setReset = () => {
+    setMajor("");  
+  };
+  
+  const [selectedMajor, setMajor] = useState(majorsList[0].name)
+  const selectedInfo = majorsList.find(m => m.name == selectedMajor)
+  const clickHandler = (event) => {
+    event.preventDefault();
+    setMajor("Computer Science");  //was event.target.value
   };
 
+  const changeHandler = (event) => {
+    setMajor(event.target.value);  
+  };
 
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
@@ -96,11 +108,21 @@ export default function Home() {
           <br />
 
           {/* Buttons */}
-          <button name="submit" type="submit" id="submit" onClick={sayHello}>Submit Your Answers</button>
-          <button name="reset" type="reset" id="reset" onClick={sayHello}>Reset</button>
+          <button name="submit" type="submit" id="submit" onClick={clickHandler}>Submit Your Answers</button>
+          <button name="reset" type="reset" id="reset" onClick={setReset}>Reset</button>
         </form>
   
-        <div id="answer">Result</div>
+        {/* Output */}
+        <div id="answer"> &nbsp;<a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={selectedInfo.link}>{selectedInfo.name}</a></div>
+
+        {/* Experiment Start */}
+        <div className='flex flex-col items-center p-8' >
+      
+        <select name="majors" id="majorsDropdown" onChange={changeHandler}>{majorsList.map(m => <option key={m.name} value={m.name}>{m.name}</option>)}
+        </select>
+        </div>
+        {/* Experiment End */}
+
       </div>
 
     </main>

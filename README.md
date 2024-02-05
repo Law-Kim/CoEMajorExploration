@@ -1,5 +1,5 @@
 ## Coe Major Exploration Game
-### Cleo Golds, Derek Inman, and Lawrence Kim's Oregon State University Senior Capstone Project Sept 2023-June 2024
+### Derek Inman and Lawrence Kim's Oregon State University Senior Capstone Project Sept 2023-June 2024
 ---
 ### Purpose
 We are building a website to help incoming College of Engineering students choose a major.
@@ -39,26 +39,26 @@ Optional Configurations and Software (Recommended)
 Once Node.js and Git have been installed, you will now clone a copy of the online repository to your local hard drive and run it from there. There are a few options available to do this, but these are two of the most common. Using GitHub Desktop is recommended as it does much of what is necessary during the installation process.
 
 ### Option 1 - To Install Using GitHub Desktop (Recommended)
-1. Open a web browser and open the CoE Major Exploration page in GitHub located at https://github.com/cleog/CoEMajorExploration	
+1. Open a web browser and open the CoE Major Exploration page in GitHub located at https://github.com/Law-Kim/CoEMajorExploration	
 2. Click on <> Code
-3. Under the Local tab, in the HTTPS section, copy the address which should be https://github.com/cleog/CoEMajorExploration.git	
+3. Under the Local tab, in the HTTPS section, copy the address which should be https://github.com/Law-Kim/CoEMajorExploration.git	
 4. Download GitHub Desktop from https://desktop.github.com/
 5. Install the downloaded software.
 6. During the installation, sign in using your GitHub account or create a new one.
 7. Select the option to clone a repository from the Internet.
-8. Select URL and enter the URL copied from GitHub which should be https://github.com/cleog/CoEMajorExploration.git
+8. Select URL and enter the URL copied from GitHub which should be https://github.com/Law-Kim/CoEMajorExploration.git
 9. Select the location where you want to store your cloned Git repository.
 10. Finish the installation.
 
 ### Option 2 - To Install Using Git Bash CLI
-1. Open a web browser and open the CoE Major Exploration page in GitHub located at https://github.com/cleog/CoEMajorExploration	
+1. Open a web browser and open the CoE Major Exploration page in GitHub located at https://github.com/Law-Kim/CoEMajorExploration	
 2. Click on <> Code
-3. Under the Local tab, in the HTTPS section, copy the address which should be https://github.com/cleog/CoEMajorExploration.git	
+3. Under the Local tab, in the HTTPS section, copy the address which should be https://github.com/Law-Kim/CoEMajorExploration.git	
 4. Click start and type git bash
 5. Open Git Bash
 6. In the Git Bash CLI, navigate to where you want to store your cloned Git repository
 7. Type git clone followed by the web address and press enter. 
-<br>Example: git clone https://github.com/cleog/CoEMajorExploration.git	
+<br>Example: git clone https://github.com/Law-Kim/CoEMajorExploration.git	
 8. The online repository files will be cloned to that location.
 9. Close Git Bash.
 
@@ -131,4 +131,4 @@ Tech Stack: MERN
 [Next-url]: https://nextjs.org/
 
 [LicenseMIT]: https://img.shields.io/badge/License-MIT-yellow.svg
-[LicenseMIT-URL]: https://github.com/cleog/CoEMajorExploration/blob/main/LICENSE.md
+[LicenseMIT-URL]: https://github.com/Law-Kim/CoEMajorExploration/blob/main/LICENSE.md

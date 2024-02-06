@@ -37,6 +37,16 @@ app.get('/majors', async (request, response) => {
   if (!result) response.sendStatus(404);
   else response.send(result).status(200);
 });
+
+// Get single major
+app.get('/major/:name', async (request, response) => {
+  const name = request.params.name;
+  const query = {name};
+  let result = await Majors.find({name}).toArray();
+  if (!result) response.sendStatus(404);
+  else response.send(result).status(200);
+});
+
 // Post Function
 // Create a question using this endpoint
 // Use a question string and weight in request body to update the DB 

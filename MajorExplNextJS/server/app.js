@@ -22,10 +22,27 @@ try {
   console.error(e);
 }
 let Questions = database.collection('Questions')
+let Majors = database.collection('Majors')
 
 // Get all questions
 app.get('/questions', async (request, response) => {
   let result = await Questions.find({}).toArray();
+  if (!result) response.sendStatus(404);
+  else response.send(result).status(200);
+});
+
+// Get all majors
+app.get('/majors', async (request, response) => {
+  let result = await Majors.find({}).toArray();
+  if (!result) response.sendStatus(404);
+  else response.send(result).status(200);
+});
+
+// Get single major
+app.get('/major/:name', async (request, response) => {
+  const name = request.params.name;
+  const query = {name};
+  let result = await Majors.find({name}).toArray();
   if (!result) response.sendStatus(404);
   else response.send(result).status(200);
 });

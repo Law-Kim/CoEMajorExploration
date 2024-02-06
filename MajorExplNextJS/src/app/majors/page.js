@@ -3,6 +3,14 @@
 import { useState } from 'react'
 import majorsList from './majorsList.json'
 
+// Instead of majorsList pulling from JSON, pull from DB
+// GET function to REST API
+// fetch ('http://localhost:8008/api/majors')
+// .then(response => response.json())
+// SET data to the json list 
+// .then(json => setData(json))
+// .catch(err => console.err(err))
+
 
 
 // https://www.geeksforgeeks.org/how-to-use-html-select-tag-in-reactjs/

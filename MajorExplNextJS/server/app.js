@@ -22,6 +22,7 @@ try {
   console.error(e);
 }
 let Questions = database.collection('Questions')
+let Majors = database.collection('Majors')
 
 // Get all questions
 app.get('/questions', async (request, response) => {
@@ -30,6 +31,12 @@ app.get('/questions', async (request, response) => {
   else response.send(result).status(200);
 });
 
+// Get all majors
+app.get('/majors', async (request, response) => {
+  let result = await Majors.find({}).toArray();
+  if (!result) response.sendStatus(404);
+  else response.send(result).status(200);
+});
 // Post Function
 // Create a question using this endpoint
 // Use a question string and weight in request body to update the DB 

@@ -2,78 +2,241 @@
 
     {
       "name": "Architectural Engineering",
-      "campus": "Offered at the Corvallis Campus",
-      "degreesOffered": "B.S and H.B.S",
-      "mathRequirements": "Differential Calculus, Integral Calculus, Vector Calculus I, Applied Differential Equations, Introduction to Matrix Algebra, Introduction to Series",
-      "samplePlan": "https://engineering.oregonstate.edu/sites/engineering.oregonstate.edu/files/2023-06/2023-2024_are_bubble_sheet.pdf"
+      "campus": "Corvallis Campus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs": "Associated General Contractors of America Student Chapter, Earthquake Engineering Research Institute/OSU Student Chapter, Institute of Transportation Engineers - OSU Student Chapter",
+      "topOccupationsIncome": "Architectural and Engineering Managers [$159,614], Engineers (All Others) [$104,723], Postsecondary Teachers [$79,218]",
+      "majorCost":"$74,847 ($409 x 183 Credits)",
+      "currentlyEmployed": "2,200,000",
+      "averageSalary": "$114,518",
+      "jobPostings": "21,913",
+      "projectedGrowth": "5.5%",
+      "mathRequirements": "ECON 201, MTH 251, MTH 252, MTH 254, MTH 256, MTH 265, ST 314, PH 211, PH 212, PH 213, ENGR 211",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-civil-construction-engineering/architectural-engineering-bs-hbs/#sampleplantext"
     },
     {
       "name": "Bioengineering",
-      "campus": "Offered at the Corvallis Campus",
-      "degreesOffered": "B.A. B.S. H.B.A. H.B.S.",
-      "mathRequirements": "Differential Calculus, Integral Calculus, Vector Calculus I",
-      "samplePlan": "https://engineering.oregonstate.edu/sites/engineering.oregonstate.edu/files/2023-10/bioengineering_23-24.pdf"
+      "campus": "Corvallis Campus",
+      "degreesOffered": "B.A. / B.S. / H.B.A. / H.B.S.",
+      "relatedClubs":"Biomedical Engineering Society Student Chapter, Chemical, Biological, and Environmental Engineering Student Association, Engineers Without Borders - OSU Chapter",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,614], Bioengineers and Biomedical Engineers [$99,548], Postsecondary Teachers [$79,218]",
+      "majorCost":"$78,528 ($409 x 192 Credits)",
+      "currentlyEmployed":"2,000,000",
+      "averageSalary":"$112,794",
+      "jobPostings":"19,785",
+      "projectedGrowth":"5.6%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, ENGR 211, MTH 256, MTH 264, MTH 265, PH 212, PH 213, BIOE 350",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-chemical-biological-environmental-engineering/bioengineering-ba-bs-hba-hbs/#sampleplantext"
     },
     {
       "name": "Chemical Enginering",
-      "campus": "Offered on the Corvallis Campus"
+      "campus": "Corvallis Campus",
+      "degreesOffered": "B.A. / B.S. / H.B.A. / H.B.S.",
+      "relatedClubs":"Biomedical Engineering Society Student Chapter, Chemical, Biological, & Environmental Engineering Student Club, Engineers Without Borders - Oregon State University",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,614], Chemical Engineers [$106,817], Postsecondary Teachers [$79,218]",
+      "majorCost":"$78,937 ($409 x 193 Credits)",
+      "currentlyEmployed":"2,000,000",
+      "averageSalary":"$115,216",
+      "jobPostings":"24,846",
+      "projectedGrowth":"5.6%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, MTH 256, MTH 264, MTH 265, PH 211, PH 212, PH 213",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-chemical-biological-environmental-engineering/chemical-engineering-ba-bs-hba-hbs/#sampleplantext"
+    },
+    {
+      "name": "Civil Engineering",
+      "campus": "Corvallis Campus",
+      "degreesOffered": "B.A. / B.S. / H.B.A. / H.B.S.",
+      "relatedClubs":"Associated General Contractors of America Student Chapter, Earthquake Engineering Research Institute/OSU Student Chapter, Engineers Without Borders - Oregon State University, Geo-Institute Graduate Student Organization, Institute of Transportation Engineers - OSU Student Chapter, Marine Renewable Energy Club",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,614], Civil Engineers [$89,768], Postsecondary Teachers [$79,218]",
+      "majorCost":"$75,665 ($409 x 185 Credits)",
+      "currentlyEmployed":"2,300,000",
+      "averageSalary":"$109,533",
+      "jobPostings":"45,110",
+      "projectedGrowth":"5.5%",
+      "mathRequirements": "ECON 201, MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 264, MTH 265, PH 212, PH 213, ST 314",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-civil-construction-engineering/civil-engineering-ba-bs-hba-hbs/#sampleplantext"
     },
     {
       "name": "Computer Science",
-      "campus": "Great starting salary"
+      "campus": "Corvallis Campus, Ecampus, OSU-Cascades",
+      "degreesOffered": "B.A. / B.S. / H.B.A. / H.B.S.",
+      "relatedClubs":"App Development Club, Artificial Intelligence Club, Association of Computing Machinery Women's Chapter, Girls' Empowerment - Engineering and Outreach, Hackathon Club, Security Club-Oregon State University",
+      "topOccupationsIncome":"Computer and Information Systems Manager [$162,902], Computer and Information Research Scientists [$136,635], Database Architects [$134,141], Software Developers [$126.396], Information Security Analysts [$111,795]",
+      "majorCost":"$74,029 ($409 x 181 Credits)",
+      "currentlyEmployed":"5,600,000",
+      "averageSalary":"$104,650",
+      "jobPostings":"268,081",
+      "projectedGrowth":"8.7%",
+      "mathRequirements": "MTH 231, MTH 251, MTH 252, ST 314",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-electrical-engineering-computer-science/computer-science-ba-bs-hba-hbs/#sampleplantext"
     },
     {
       "name": "Construction Engeering Management",
-      "campus": "Offered on the Corvallis Campus and Ecampus"
+      "campus": "Corvallis Campus, Ecampus",
+      "degreesOffered": "B.A. / B.S. / H.B.A. / H.B.S.",
+      "relatedClubs":"Associated General Contractors of America Student Chapter, Earthquake Engineering Research Institute/OSU Student Chapter, Engineers Without Borders - Oregon State University",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,614], Engineers, All Other [$104,723], Civil Engineers [$89,768], Postsecondary Teachers [$79,218], Cost Estimators [$71,006]",
+      "majorCost":"$74,438 ($409 x 182 Credits)",
+      "currentlyEmployed":"2,700,000",
+      "averageSalary":"$100,866",
+      "jobPostings":"63,860",
+      "projectedGrowth":"5.1%",
+      "mathRequirements": "ECON 201, ECON 202, MTH 251, MTH 252, PH 211, PH 212, ST 314",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-civil-construction-engineering/construction-engineering-management-ba-bs-hba-hbs/#sampleplantext"
     },
     {
       "name": "Ecological Engineering",
-      "campus": "Offered on the Corvallis Campus"
-    },
-    {
-      "name": "Electrical Engineering",
-      "campus": "Solder burns here we come!"
+      "campus": "Corvallis Campus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"Engineers Without Borders - Oregon State University, Ecological Engineering Student Society, Minorities in Agriculture, Natural Resources and Related Sciences, Society for Advancement of Chicanos and Native Americans in Science - Oregon State University Chapter",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,614], Agricultural Engineers [$83,262], Postsecondary Teachers [$79,218]",
+      "majorCost":"$74,438 ($409 x 182 Credits)",
+      "currentlyEmployed":"2,000,000",
+      "averageSalary":"$107,365",
+      "jobPostings":"19,370",
+      "projectedGrowth":"5.6%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, MTH 256, MTH 264, MTH 265, MTH 253, MTH 341, PH 211, PH 212, PH 213, ST 314, ST 421, ST 422, AEC 250",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/biological-ecological-engineering/ecological-engineering-bs-hbs/#sampleplantext"
     },
     {
       "name": "Electrical and Computer Engineering",
-      "campus": "Offered at the Corvallis Campus"
+      "campus": "Corvallis Campus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"American Institute of Aeronautics and Astronautics (OSU), Eta Kappa Nu, Institute of Electrical and Electronics Engineers, Marine Renewable Energy Club, Robotics Club (OSU), Society of Automotive Engineers",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,614], Computer Hardware Engineers [$131,662], Aerospace Engineers [$127,092], Electronics Engineers (Except Computer) [$108,043], Electrical Engineers [$103,056]",
+      "majorCost":"$74,847 ($409 x 183 Credits)",
+      "currentlyEmployed":"2,400,000",
+      "averageSalary":"$118,114",
+      "jobPostings":"47,261",
+      "projectedGrowth":"5.5%",
+      "mathRequirements": "MTH 231, MTH 251, MTH 252, MTH 254, MTH 255, MTH 256, MTH 264, MTH 265, PH 211, PH 212, PH 213, ECE 353",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-electrical-engineering-computer-science/electrical-computer-engineering-bs-hbs/#sampleplantext"
     },
-
     {
       "name": "Energy Systems Engineering",
-      "campus": "Offered at the OSU-Cascades Campus"
+      "campus": "OSU-Cascades Campus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"Information Unavailable",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,614], Engineers (All Other) [$104,723], Health and Safety Engineers (Except Mining Safety Engineers and Inspectors) [$100,158], Postsecondary Teachers [$79,218]",
+      "majorCost":"$75,256 ($409 x 184 Credits)",
+      "currentlyEmployed":"2,200,000",
+      "averageSalary":"$110,928",
+      "jobPostings":"26,092",
+      "projectedGrowth":"5.5%",
+      "mathRequirements": "ECON 201, MTH 251, MTH 252, MTH 254, MTH 256, MTH 341, PH 211, PH 212, PH 213, ST 314",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/energy-systems-engineering-bs-hbs/#sampleplantext"
     },
     {
       "name": "Engineering Science",
-      "Ccmpus": "Offered at the OSU-Cascades Campus"
+      "Ccmpus": "OSU-Cascades Campus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"Information Unavailable",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,614], Engineers (All Other) [$104,723], Postsecondary Teachers [$79,218]",
+      "majorCost":"$74,847 ($409 x 183 Credits)",
+      "currentlyEmployed":"2,200,000",
+      "averageSalary":"$114,518",
+      "jobPostings":"21,705",
+      "projectedGrowth":"5.5%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, ECON 201, MTH 256, MTH 264, ST 314, PH 211, PH 212, PH 213",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/other-degrees-programs/engineering-science-bs-hbs/#sampleplantext"
     },
     {
       "name": "Environmental Engineering",
-      "campus": "Offered at the Corvallis Campus"
+      "campus": "Corvallis Campus",
+      "degreesOffered": "B.A. / B.S. / H.B.A. / H.B.S.",
+      "relatedClubs":"Chemical, Biological, & Environmental Engineering Student Club, Engineers Without Borders - Oregon State University, Girls' Empowerment, Engineering, and Outreach (GEEO)",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,432], Health and Safety Engineers (Except Mining Safety Engineers and Inspectors) [$100,158], Environmental Engineers [$96,532], Postesecondary Teachers [$79,322]",
+      "majorCost":"$78,528 ($409 x 193 Credits)",
+      "currentlyEmployed":"2,100,000",
+      "averageSalary":"$108,861",
+      "jobPostings":"33,162",
+      "projectedGrowth":"5.4%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 264, MTH 265, PH 212, PH 213",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-chemical-biological-environmental-engineering/environmental-engineering-ba-bs-hba-hbs/#sampleplantext"
     },
     {
       "name": "Industrial Engineering",
-      "campus": "Offered at the Corvallis Campus"
+      "campus": "Corvallis Campus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"Human Factors and Ergonomics Society, Institute of Industrial and Systems Engineers, Three-Dimensional Printing and Fabrication Club of Oregon State University",
+      "topOccupationsIncome":"Architectural and Engineering Managaers [$159,432], Industrial Production Managers [$106,400], Industrial Engineers [$96,207], Postesecondary Teachers [$79,322]",
+      "majorCost":"$74,847 ($409 x 183 Credits)",
+      "currentlyEmployed":"2,500,000",
+      "averageSalary":"$110,314",
+      "jobPostings":"57,153",
+      "projectedGrowth":"5.7%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 341, PH 212, PH 213, ST 314",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/industrial-engineering-bs-hbs/#sampleplantext"
     },
     {
       "name": "Manufacturing Engineering",
-      "campus": "Offered at the Corvallis Campus"
+      "campus": "Corvallis Campus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"Blacksmithing Club (OSU), Society of Manufacturing Engineering, Society of Automotive Engineers, Three-Dimensional Printing and Fabrication Club of Oregon State University",
+      "topOccupationsIncome":"Architectural and Engineering Managaers [$159,432], Engineers (All Other) [$104,436], Industrial Engineers [$96,207], Postesecondary Teachers [$79,322], Cost Estimators [$71,136]",
+      "majorCost":"$74,847 ($409 x 183 Credits)",
+      "currentlyEmployed":"2,700,000",
+      "averageSalary":"$102,107",
+      "jobPostings":"57,482",
+      "projectedGrowth":"5.2%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 341, PH 212, PH 213, ST 314",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/manufacturing-engineering-bs-hbs/#sampleplantext"
     },
     {
       "name": "Mechanical Engineering",
-      "Campus": "Offered on the Corvallis Campus and Ecampus"
+      "Campus": "Corvallis Campus, Ecampus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"American Institute of Aeronautics and Astronautics (OSU), Engineers Without Borders - Oregon State University, Marine Renewable Energy Club, American Society of Mechanical Engineers, Robotics Club (OSU), Society of Automotive Engineers",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,432], Aerospace Engineers [$126,827], Mechanical Engineers [$96,445], Postsecondary Teachers [$79,322], Cost Estimators [$71,136]",
+      "majorCost":"$74,438 ($409 x 182 Credits)",
+      "currentlyEmployed":"2,600,000",
+      "averageSalary":"$106,633",
+      "jobPostings":"55,082",
+      "projectedGrowth":"5.3%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, ECON 201, ECON 202, MTH 256, MTH 341, PH 212, PH 213, ST 314",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/mechanical-engineering-bs-hbs/#sampleplantext"
     },
     {
       "name": "Nuclear Engineering",
-      "Campus": "Offered at the Corvallis Campus"
+      "Campus": "Corvallis Campus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"American Nuclear Society / Health Physics Society, Institute of Nuclear Materials Management",
+      "topOccupationsIncome":"Architectural and Engineering Managers [$159,614], Nuclear Engineers [$122,374], Postsecondary Teachers [$79,218]",
+      "majorCost":"$63,700 ($350 x 182 Credits)",
+      "currentlyEmployed":"2,000,000",
+      "averageSalary":"$120,402",
+      "jobPostings":"18,982",
+      "projectedGrowth":"5.6%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 264, MTH 265, PH 212, PH 213",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-nuclear-science-engineering/nuclear-engineering-bs-hbs/#sampleplantext"
     },
     {
       "name": "Outdoor Products",
-      "campus": "Offered at the OSU-Cascades Campus"
+      "campus": "OSU-Cascades Campus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"Information Unavailable",
+      "topOccupationsIncome":"Sales/Marketing Manager [$107,500], Accounting Manager [$90,000], Design Engineer [$87,500], Outdoor Products Instructor [$75,000]",
+      "majorCost":"$63,000 ($350 x 180 Credits)",
+      "currentlyEmployed":"4,500,000",
+      "averageSalary":"$100,000",
+      "jobPostings":"76,170",
+      "projectedGrowth":"5.98%",
+      "mathRequirements": "ECON 201/AEC 250, ST 243Z, ST 202,",
+      "samplePlan": "https://osucascades.edu/sites/osucascades.edu/files/Advising/op_4year_plan.pdf"
     },
     {
       "name": "Radiation Health Physics",
-      "campus": "Offered at the Corvallis Campus and Ecampus"
+      "campus": "Corvallis Campus, Ecampus",
+      "degreesOffered": "B.S. / H.B.S.",
+      "relatedClubs":"American Nuclear Society / Health Physics Society, Biomedical Engineering Society Student Chapter",
+      "topOccupationsIncome":"Physicists [$142,854], Postsecondary Teachers [$79,218]",
+      "majorCost":"$65,450 ($350 x 187 Credits)",
+      "currentlyEmployed":"1,800,000",
+      "averageSalary":"$111,036",
+      "jobPostings":"4,444",
+      "projectedGrowth":"5.7%",
+      "mathRequirements": "MTH 251, MTH 252, MTH 254, ST 243Z, ST 202, ST 314",
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-nuclear-science-engineering/radiation-health-physics-bs-hbs/#sampleplantext"
     }
     
   ]

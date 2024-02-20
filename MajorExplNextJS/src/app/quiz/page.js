@@ -18,7 +18,6 @@ export default function Home() {
     fetch('http://127.0.0.1:8008/questions')
        .then((response) => response.json())
        .then((data) => {
-          console.log(data);
           setQuestions(data);
        })
        .catch((err) => {

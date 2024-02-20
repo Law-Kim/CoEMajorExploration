@@ -15,7 +15,7 @@ export default function Home() {
   const [questions, setQuestions] = useState([]);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8008/api/questions')
+    fetch('http://127.0.0.1:8008/questions')
        .then((response) => response.json())
        .then((data) => {
           console.log(data);
@@ -50,12 +50,9 @@ export default function Home() {
         <div className="questions-container">
           {questions.map((question) => {
             return (
-              <div className="question-card" key={question.id}>
-                <h2 className="question-title">{question.title}</h2>
-                <p className="question-body">{question.body}</p>
-                <div className="button">
-                <div className="delete-btn">Delete</div>
-                </div>
+              <div className="question-card" key={question.name}>
+                <h2 className="question-title">{question.question}</h2>
+                <p className="question-body">Insert answer</p>
               </div>
             );
           })}

@@ -2,10 +2,8 @@
 
 import Image from "next/image";
 import quiz from '/src/components/quiz.png'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import majorsList from './majorsList.json'
-
-const [questions, setQuestions] = useState([]);
 
 //https://codepen.io/amyfu/pen/kPVYLr
 
@@ -14,9 +12,10 @@ export default function Home() {
   const setReset = () => {
     setMajor("");  
   };
+  const [questions, setQuestions] = useState([]);
 
   useEffect(() => {
-    fetch('localhost:8008/api/questions')
+    fetch('http://127.0.0.1:8008/api/questions')
        .then((response) => response.json())
        .then((data) => {
           console.log(data);

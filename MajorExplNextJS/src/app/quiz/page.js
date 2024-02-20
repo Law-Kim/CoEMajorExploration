@@ -5,6 +5,8 @@ import quiz from '/src/components/quiz.png'
 import { useState } from 'react'
 import majorsList from './majorsList.json'
 
+const [questions, setQuestions] = useState([]);
+
 //https://codepen.io/amyfu/pen/kPVYLr
 
 export default function Home() {
@@ -12,6 +14,18 @@ export default function Home() {
   const setReset = () => {
     setMajor("");  
   };
+
+  useEffect(() => {
+    fetch('localhost:8008/api/questions')
+       .then((response) => response.json())
+       .then((data) => {
+          console.log(data);
+          setQuestions(data);
+       })
+       .catch((err) => {
+          console.log(err.message);
+       });
+  }, []);
   
   const [selectedMajor, setMajor] = useState(majorsList[0].name)
   const selectedInfo = majorsList.find(m => m.name == selectedMajor)
@@ -33,6 +47,20 @@ export default function Home() {
       <div id="wrapper">
         <h1>What kind of College of Engineering major might work for you?</h1>
         <br />
+
+        <div className="questions-container">
+          {questions.map((question) => {
+            return (
+              <div className="question-card" key={question.id}>
+                <h2 className="question-title">{question.title}</h2>
+                <p className="question-body">{question.body}</p>
+                <div className="button">
+                <div className="delete-btn">Delete</div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
 
         <form id="quiz">
           {/* Question 01 */}

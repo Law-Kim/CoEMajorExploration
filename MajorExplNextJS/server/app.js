@@ -1,7 +1,8 @@
 const express = require('express');
 const app = express();
 app.use(express.json());
-require('dotenv').config()
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') })
 
 const { MongoClient, Collection } = require("mongodb");
 const uri = "mongodb+srv://coe_admin:" + process.env.MONGODB_KEY + "@cs46x.l19wpnk.mongodb.net/?retryWrites=true&w=majority";

@@ -1,7 +1,15 @@
 const express = require('express');
 const app = express();
 app.use(express.json());
-require('dotenv').config()
+
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "POST, GET, PUT");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  next();
+})
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') })
 
 const { MongoClient, Collection } = require("mongodb");
 const uri = "mongodb+srv://coe_admin:" + process.env.MONGODB_KEY + "@cs46x.l19wpnk.mongodb.net/?retryWrites=true&w=majority";

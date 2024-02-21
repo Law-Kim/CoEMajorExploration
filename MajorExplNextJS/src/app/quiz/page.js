@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import quiz from '/src/components/quiz.png'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import majorsList from './majorsList.json'
 
 //https://codepen.io/amyfu/pen/kPVYLr
@@ -12,6 +12,18 @@ export default function Home() {
   const setReset = () => {
     setMajor("");  
   };
+  const [questions, setQuestions] = useState([]);
+
+  useEffect(() => {
+    fetch('http://127.0.0.1:8008/questions')
+       .then((response) => response.json())
+       .then((data) => {
+          setQuestions(data);
+       })
+       .catch((err) => {
+          console.log(err.message);
+       });
+  }, []);
   
   const [selectedMajor, setMajor] = useState(majorsList[0].name)
   const selectedInfo = majorsList.find(m => m.name == selectedMajor)
@@ -33,6 +45,17 @@ export default function Home() {
       <div id="wrapper">
         <h1>What kind of College of Engineering major might work for you?</h1>
         <br />
+
+        <div className="questions-container">
+          {questions.map((question) => {
+            return (
+              <div className="question-card" key={question.name}>
+                <h2 className="question-title">{question.question}</h2>
+                <p className="question-body">Insert answer</p>
+              </div>
+            );
+          })}
+        </div>
 
         <form id="quiz">
           {/* Question 01 */}

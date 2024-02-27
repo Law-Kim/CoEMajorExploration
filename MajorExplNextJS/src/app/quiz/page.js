@@ -27,6 +27,7 @@ export default function Home() {
   
   const [selectedMajor, setMajor] = useState(majorsList[0].name)
   const selectedInfo = majorsList.find(m => m.name == selectedMajor)
+  
   const clickHandler = (event) => {
     event.preventDefault();
     setMajor("Computer Science");  //was event.target.value
@@ -36,6 +37,49 @@ export default function Home() {
     setMajor(event.target.value);  
   };
 
+  //used to calculate the suggested major based on the selected options (experimental)
+  const calculateAnswer = (event) => {
+    var c1score = 0;
+    var c2score = 0;
+    var c3score = 0;
+    var c4score = 0;
+
+    var choices = document.getElementsByTagName('input');
+
+    for (i=0; i<choices.length;i++){
+      if(choices[i].checked){
+        if(choices[i].value == 'c1'){
+          c1score = c1score + 1;
+        }
+        if(choices[i].value == 'c2'){
+          c1score = c1score + 1;
+        }
+        if(choices[i].value == 'c3'){
+          c1score = c1score + 1;
+        }
+        if(choices[i].value == 'c4'){
+          c1score = c1score + 1;
+        }
+      }
+    }
+
+    var maxscore = Math.max(c1score,c2score,c3score,c4score);
+    if (c1score == maxscore) {
+    
+    }
+    if (c2score == maxscore) {
+    
+    }
+    if (c3score == maxscore) {
+    
+    }
+    if (c4score == maxscore) {
+    
+    }
+
+  };
+
+  //Quiz Form questions, buttons, and output fields
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
 

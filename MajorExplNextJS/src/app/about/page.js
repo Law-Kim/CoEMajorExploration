@@ -7,10 +7,20 @@ export default function Home() {
       </div>
 
       <div>
-        <h1 className={`mb-3 text-2xl font-semibold`}>ABOUT College of Engineering Major Exploration</h1>
-        <h2 className={`mb-3 text-2xl font-semibold`}>Oregon State University</h2>
+        <h1 className={`mb-3 text-2xl font-semibold`}>College of Engineering Major Exploration - Oregon State University</h1>
       </div>
-
+      <div className="p-3">
+      New and prospective students may have trouble figuring out which major to study in their college <br/>careers at Oregon State’s College of Engineering.
+      Our project is a web-based application that will <br/> help students identify the majors that align with their interests the most and provide the <br/>necessary 
+      resources for them to make a decision.<br/> <br/>
+      </div>
+      <div>
+      <h1 className={`mb-3 text-2xl font-semibold`}>Contributors</h1>
+      </div>
+      <div className="p-3">
+      Lawrence Kim <br/>
+      Derek Inman
+      </div>
       
     </main>
   )

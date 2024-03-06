@@ -28,7 +28,7 @@ const DrilldownChart = () => {
       type: 'column'
     },
     title: {
-      text: 'Analyze results'
+      text: 'Analyze results from Major Questions'
     },
     subtitle: {
       align: 'left',
@@ -60,6 +60,23 @@ const DrilldownChart = () => {
         data: majors
       }
     ],
+    credits: {
+      enabled: false
+    },
+    events: {
+      render: function() {
+        const chart = this,
+          group = chart.series[0].group,
+          bBox = group.getBBox(),
+          ratio = bBox.width / bBox.height;
+        
+        if(!chart.allowUpdate) {
+          chart.allowUpdate = true;
+          chart.setSize(null, (chart.plotSizeX + 20) / ratio, false);
+          chart.allowUpdate = false;
+        }
+      }
+    },
     drilldown: {
       breadcrumbs: {
           position: {
@@ -226,6 +243,32 @@ const DrilldownChart = () => {
         {
           name: 'Electrical and Computer Engineering',
           id: 'Electrical and Computer Engineering',
+          data: [
+            [
+              'Question 1',
+              0.1
+            ],
+            [
+              'Question 2',
+              0.3
+            ],
+            [
+              'Question 3',
+              0
+            ],
+            [
+              'Question 4',
+              0.5
+            ],
+            [
+              'Question 5',
+              0.1
+            ]
+          ]
+        },
+        {
+          name: 'Ecological Engineering',
+          id: 'Ecological Engineering',
           data: [
             [
               'Question 1',

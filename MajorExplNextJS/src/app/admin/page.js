@@ -10,7 +10,9 @@ export default function Home() {
         <h1 className={`mb-3 text-2xl font-semibold`}>Admin Tools</h1>
       </div>
 
-      <DrilldownChart />
+      <div className="admin-width">
+        <DrilldownChart />
+      </div>
     </main>
   )
 }

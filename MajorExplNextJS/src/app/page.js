@@ -17,10 +17,28 @@ JUNK center
       </div>
 
       <div className="p-8">
-        <h3 className={`mb-3 text-2xl font-semibold`}>Choose a method to explore majors:</h3>
+        <h3 className={`mb-3 text-2xl font-semibold`}>Choose a section to explore:</h3>
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+
+      <a
+          href="/about"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            About{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Learn about this site and it's creators.
+          </p>
+        </a> 
+        
+        
         <a
           href="/majors"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -36,7 +54,7 @@ JUNK center
             See the list of CoE Undergraduate Majors.
           </p>
         </a>
-
+{/*
         <a
           href="#"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
@@ -52,7 +70,7 @@ JUNK center
             Use our tool to compare majors.
           </p>
         </a>
-
+    */}
         <a
           href="/quiz"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -65,10 +83,26 @@ JUNK center
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Get 3 major recommendations based on your answers.
+            Get a major recommendation based on your answers.
           </p>
         </a>
 
+        <a
+          href="/admin"
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Admin{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Website administration controls and information.
+          </p>
+        </a>
+{/*}
         <a
           href="/"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -84,6 +118,7 @@ JUNK center
             Hear about College of Engineering Majors from real students.
           </p>
         </a>
+  */}
       </div>
     </main>
   )

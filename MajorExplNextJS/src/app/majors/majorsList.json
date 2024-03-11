@@ -1,5 +1,8 @@
 [
-
+    {
+      "name": "",
+      "link": ""
+    },
     {
       "name": "Architectural Engineering",
       "campus": "Corvallis Campus",
@@ -12,7 +15,8 @@
       "jobPostings": "21,913",
       "projectedGrowth": "5.5%",
       "mathRequirements": "ECON 201, MTH 251, MTH 252, MTH 254, MTH 256, MTH 265, ST 314, PH 211, PH 212, PH 213, ENGR 211",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-civil-construction-engineering/architectural-engineering-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-civil-construction-engineering/architectural-engineering-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/architectural-engineering"
     },
     {
       "name": "Bioengineering",
@@ -26,7 +30,8 @@
       "jobPostings":"19,785",
       "projectedGrowth":"5.6%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, ENGR 211, MTH 256, MTH 264, MTH 265, PH 212, PH 213, BIOE 350",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-chemical-biological-environmental-engineering/bioengineering-ba-bs-hba-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-chemical-biological-environmental-engineering/bioengineering-ba-bs-hba-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/bioengineering"
     },
     {
       "name": "Chemical Enginering",
@@ -40,7 +45,8 @@
       "jobPostings":"24,846",
       "projectedGrowth":"5.6%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, MTH 256, MTH 264, MTH 265, PH 211, PH 212, PH 213",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-chemical-biological-environmental-engineering/chemical-engineering-ba-bs-hba-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-chemical-biological-environmental-engineering/chemical-engineering-ba-bs-hba-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/Chemical-Engineering"
     },
     {
       "name": "Civil Engineering",
@@ -54,7 +60,8 @@
       "jobPostings":"45,110",
       "projectedGrowth":"5.5%",
       "mathRequirements": "ECON 201, MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 264, MTH 265, PH 212, PH 213, ST 314",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-civil-construction-engineering/civil-engineering-ba-bs-hba-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-civil-construction-engineering/civil-engineering-ba-bs-hba-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/civil-engineering"
     },
     {
       "name": "Computer Science",
@@ -68,7 +75,8 @@
       "jobPostings":"268,081",
       "projectedGrowth":"8.7%",
       "mathRequirements": "MTH 231, MTH 251, MTH 252, ST 314",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-electrical-engineering-computer-science/computer-science-ba-bs-hba-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-electrical-engineering-computer-science/computer-science-ba-bs-hba-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/computer-science"
     },
     {
       "name": "Construction Engeering Management",
@@ -82,7 +90,8 @@
       "jobPostings":"63,860",
       "projectedGrowth":"5.1%",
       "mathRequirements": "ECON 201, ECON 202, MTH 251, MTH 252, PH 211, PH 212, ST 314",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-civil-construction-engineering/construction-engineering-management-ba-bs-hba-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-civil-construction-engineering/construction-engineering-management-ba-bs-hba-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/construction-engineering-management"
     },
     {
       "name": "Ecological Engineering",
@@ -96,7 +105,8 @@
       "jobPostings":"19,370",
       "projectedGrowth":"5.6%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, MTH 256, MTH 264, MTH 265, MTH 253, MTH 341, PH 211, PH 212, PH 213, ST 314, ST 421, ST 422, AEC 250",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/biological-ecological-engineering/ecological-engineering-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/biological-ecological-engineering/ecological-engineering-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/academics/degrees/ecological-engineering"
     },
     {
       "name": "Electrical and Computer Engineering",
@@ -110,7 +120,8 @@
       "jobPostings":"47,261",
       "projectedGrowth":"5.5%",
       "mathRequirements": "MTH 231, MTH 251, MTH 252, MTH 254, MTH 255, MTH 256, MTH 264, MTH 265, PH 211, PH 212, PH 213, ECE 353",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-electrical-engineering-computer-science/electrical-computer-engineering-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-electrical-engineering-computer-science/electrical-computer-engineering-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/electrical-and-computer-engineering"
     },
     {
       "name": "Energy Systems Engineering",
@@ -124,7 +135,8 @@
       "jobPostings":"26,092",
       "projectedGrowth":"5.5%",
       "mathRequirements": "ECON 201, MTH 251, MTH 252, MTH 254, MTH 256, MTH 341, PH 211, PH 212, PH 213, ST 314",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/energy-systems-engineering-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/energy-systems-engineering-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/energy-systems-engineering"
     },
     {
       "name": "Engineering Science",
@@ -138,7 +150,8 @@
       "jobPostings":"21,705",
       "projectedGrowth":"5.5%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, ECON 201, MTH 256, MTH 264, ST 314, PH 211, PH 212, PH 213",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/other-degrees-programs/engineering-science-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/other-degrees-programs/engineering-science-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/engineering-science"
     },
     {
       "name": "Environmental Engineering",
@@ -152,7 +165,8 @@
       "jobPostings":"33,162",
       "projectedGrowth":"5.4%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 264, MTH 265, PH 212, PH 213",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-chemical-biological-environmental-engineering/environmental-engineering-ba-bs-hba-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-chemical-biological-environmental-engineering/environmental-engineering-ba-bs-hba-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/environmental-engineering"
     },
     {
       "name": "Industrial Engineering",
@@ -166,7 +180,8 @@
       "jobPostings":"57,153",
       "projectedGrowth":"5.7%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 341, PH 212, PH 213, ST 314",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/industrial-engineering-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/industrial-engineering-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/Industrial-Engineering"
     },
     {
       "name": "Manufacturing Engineering",
@@ -180,7 +195,8 @@
       "jobPostings":"57,482",
       "projectedGrowth":"5.2%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 341, PH 212, PH 213, ST 314",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/manufacturing-engineering-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/manufacturing-engineering-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/Manufacturing-Engineering"
     },
     {
       "name": "Mechanical Engineering",
@@ -194,7 +210,8 @@
       "jobPostings":"55,082",
       "projectedGrowth":"5.3%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, ECON 201, ECON 202, MTH 256, MTH 341, PH 212, PH 213, ST 314",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/mechanical-engineering-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-mechanical-industrial-manufacturing-engineering/mechanical-engineering-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/mechanical-engineering"
     },
     {
       "name": "Nuclear Engineering",
@@ -208,7 +225,8 @@
       "jobPostings":"18,982",
       "projectedGrowth":"5.6%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, PH 211, MTH 256, MTH 264, MTH 265, PH 212, PH 213",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-nuclear-science-engineering/nuclear-engineering-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-nuclear-science-engineering/nuclear-engineering-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/Nuclear-Engineering"
     },
     {
       "name": "Outdoor Products",
@@ -222,7 +240,8 @@
       "jobPostings":"76,170",
       "projectedGrowth":"5.98%",
       "mathRequirements": "ECON 201/AEC 250, ST 243Z, ST 202,",
-      "samplePlan": "https://osucascades.edu/sites/osucascades.edu/files/Advising/op_4year_plan.pdf"
+      "samplePlan": "https://osucascades.edu/sites/osucascades.edu/files/Advising/op_4year_plan.pdf",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/Outdoor-Products"
     },
     {
       "name": "Radiation Health Physics",
@@ -236,7 +255,8 @@
       "jobPostings":"4,444",
       "projectedGrowth":"5.7%",
       "mathRequirements": "MTH 251, MTH 252, MTH 254, ST 243Z, ST 202, ST 314",
-      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-nuclear-science-engineering/radiation-health-physics-bs-hbs/#sampleplantext"
+      "samplePlan": "https://catalog.oregonstate.edu/college-departments/engineering/school-nuclear-science-engineering/radiation-health-physics-bs-hbs/#sampleplantext",
+      "link": "https://engineering.oregonstate.edu/Academics/Degrees/Radiation-Health-Physics"
     }
     
   ]

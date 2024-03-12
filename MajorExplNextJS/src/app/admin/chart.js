@@ -2,6 +2,7 @@
 
 import Highcharts from 'highcharts';
 import drilldown from 'highcharts/modules/drilldown';
+import { useState, useEffect } from 'react'
 import HighchartsExporting from 'highcharts/modules/exporting';
 import HighchartsReact from 'highcharts-react-official';
 
@@ -11,13 +12,23 @@ if (typeof Highcharts === 'object') {
 }
 
 const DrilldownChart = () => {
-
+  const [majors, setMajors] = useState([]);
+  useEffect(() => {
+    fetch('http://127.0.0.1:8008/majors')
+       .then((response) => response.json())
+       .then((data) => {
+          setMajors(data);
+       })
+       .catch((err) => {
+          console.log(err.message);
+       });
+  }, []);
   const options = {
     chart: {
       type: 'column'
     },
     title: {
-      text: 'Analyze results'
+      text: 'Analyze results from Major Questions'
     },
     subtitle: {
       align: 'left',
@@ -46,100 +57,26 @@ const DrilldownChart = () => {
       {
         name: 'Majors',
         colorByPoint: true,
-        data: [
-          {
-            name: 'Architectural Engineering',
-            y: 10,
-            drilldown: 'Architectural Engineering'
-          },
-          {
-            name: 'Bioengineering',
-            y: 12,
-            drilldown: 'Bioengineering'
-          },
-          {
-            name: 'Chemical Enginering',
-            y: 4,
-            drilldown: 'Chemical Enginering'
-          },
-          {
-            name: 'Computer Science',
-            y: 25,
-            drilldown: 'Computer Science'
-          },
-          {
-            name: 'Construction Engineering Management',
-            y: 2,
-            drilldown: 'Construction Engineering Management'
-          },
-          {
-            name: 'Ecological Engineering',
-            y: 2,
-            drilldown: 'Ecological Engineering'
-          },
-          {
-            name: 'Electrical Engineering',
-            y: 15,
-            drilldown: 'Electrical Engineering'
-          },
-          {
-            name: 'Electrical and Computer Engineering',
-            y: 10,
-            drilldown: 'Electrical and Computer Engineering'
-          },
-          {
-            name: 'Energy Systems Engineering',
-            y: 2,
-            drilldown: 'Energy Systems Engineering'
-          },
-          {
-            name: 'Engineering Science',
-            y: 4,
-            drilldown: 'Engineering Science'
-          },
-          {
-            name: 'Environmental Engineering',
-            y: 2,
-            drilldown: 'Environmental Engineering'
-          },
-          {
-            name: 'Industrial Engineering',
-            y: 2,
-            drilldown: 'Industrial Engineering'
-          },
-          {
-            name: 'Manufacturing Engineering',
-            y: 3,
-            drilldown: 'Manufacturing Engineering'
-          },
-          {
-            name: 'Mechanical Engineering',
-            y: 5,
-            drilldown: 'Mechanical Engineering'
-          },
-          {
-            name: 'Nuclear Engineering',
-            y: 1,
-            drilldown: 'Nuclear Engineering'
-          },
-          {
-            name: 'Outdoor Products',
-            y: 0.5,
-            drilldown: 'Outdoor Products'
-          },
-          {
-            name: 'Radiation Health Physics',
-            y: 0.5,
-            drilldown: 'Radiation Health Physics'
-          },
-          {
-            name: 'Other',
-            y: 0,
-            drilldown: null
-          }
-        ]
+        data: majors
       }
     ],
+    credits: {
+      enabled: false
+    },
+    events: {
+      render: function() {
+        const chart = this,
+          group = chart.series[0].group,
+          bBox = group.getBBox(),
+          ratio = bBox.width / bBox.height;
+        
+        if(!chart.allowUpdate) {
+          chart.allowUpdate = true;
+          chart.setSize(null, (chart.plotSizeX + 20) / ratio, false);
+          chart.allowUpdate = false;
+        }
+      }
+    },
     drilldown: {
       breadcrumbs: {
           position: {
@@ -306,6 +243,32 @@ const DrilldownChart = () => {
         {
           name: 'Electrical and Computer Engineering',
           id: 'Electrical and Computer Engineering',
+          data: [
+            [
+              'Question 1',
+              0.1
+            ],
+            [
+              'Question 2',
+              0.3
+            ],
+            [
+              'Question 3',
+              0
+            ],
+            [
+              'Question 4',
+              0.5
+            ],
+            [
+              'Question 5',
+              0.1
+            ]
+          ]
+        },
+        {
+          name: 'Ecological Engineering',
+          id: 'Ecological Engineering',
           data: [
             [
               'Question 1',

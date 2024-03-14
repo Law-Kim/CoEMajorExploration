@@ -1,28 +1,22 @@
 'use client'
 
 import Highcharts from 'highcharts';
-import drilldown from 'highcharts/modules/drilldown';
-import { useState, useEffect } from 'react'
+import useSWR from 'swr';
+// import drilldown from 'highcharts/modules/drilldown';
 import HighchartsExporting from 'highcharts/modules/exporting';
 import HighchartsReact from 'highcharts-react-official';
 
-drilldown(Highcharts);
+// drilldown(Highcharts);
 if (typeof Highcharts === 'object') {
   HighchartsExporting(Highcharts);
 }
+const fetcher = (...args) => fetch(...args).then((res) => res.json())
 
 const DrilldownChart = () => {
-  const [majors, setMajors] = useState([]);
-  useEffect(() => {
-    fetch('http://127.0.0.1:8008/majors')
-       .then((response) => response.json())
-       .then((data) => {
-          setMajors(data);
-       })
-       .catch((err) => {
-          console.log(err.message);
-       });
-  }, []);
+  const {data, error, isLoading} = useSWR('http://127.0.0.1:8008/majors', fetcher);
+  if (error) return <p>Failed to load.</p>
+  if (isLoading) return <p>Loading...</p>
+  
   const options = {
     chart: {
       type: 'column'
@@ -57,7 +51,7 @@ const DrilldownChart = () => {
       {
         name: 'Majors',
         colorByPoint: true,
-        data: majors
+        data: data
       }
     ],
     credits: {

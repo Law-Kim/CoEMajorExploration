@@ -15,7 +15,7 @@ export default function Home() {
   const [questions, setQuestions] = useState([]);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8008/questions')
+    fetch('https://coemajorexploration.onrender.com/questions')
        .then((response) => response.json())
        .then((data) => {
           setQuestions(data);

@@ -13,7 +13,7 @@ if (typeof Highcharts === 'object') {
 const fetcher = (...args) => fetch(...args).then((res) => res.json())
 
 const DrilldownChart = () => {
-  const {data, error, isLoading} = useSWR('http://127.0.0.1:8008/majors', fetcher);
+  const {data, error, isLoading} = useSWR('https://coemajorexploration.onrender.com/majors', fetcher);
   if (error) return <p>Failed to load.</p>
   if (isLoading) return <p>Loading...</p>
   

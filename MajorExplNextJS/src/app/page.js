@@ -1,4 +1,5 @@
-
+import Image from "next/image";
+import campus from '/src/components/campus.jpg'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center  p-24">
@@ -119,6 +120,19 @@ JUNK center
           </p>
         </a>
   */}
+      </div>
+
+      <div>
+        <h1 className="text-5xl font-signature ml-2">
+          <a
+            className="link-underline link-underline-black"
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image src={campus} alt="Campus" width={900} />
+          </a>
+        </h1>
       </div>
     </main>
   )

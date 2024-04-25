@@ -1,4 +1,5 @@
-
+import Image from "next/image";
+import manpc from '/src/components/man-pc.webp'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
@@ -17,9 +18,27 @@ export default function Home() {
       <div>
       <h1 className={`mb-3 text-2xl font-semibold`}>Contributors</h1>
       </div>
-      <div className="p-3">
-      Lawrence Kim <br/>
-      Derek Inman
+      <div>
+      <h1 classname={`mb-3 text-2xl font-semibold`}>Lawrence Kim</h1>
+      </div>
+      <div>
+      <h1 classname={`mb-3 text-2xl font-semibold`}>Derek Inman</h1>
+      </div>
+      <div className="p-1">
+        <br/>
+      </div>
+
+      <div>
+        <h1 className="text-5xl font-signature ml-2">
+          <a
+            className="link-underline link-underline-black"
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image src={manpc} alt="Man-PC" width={540} />
+          </a>
+        </h1>
       </div>
       
     </main>

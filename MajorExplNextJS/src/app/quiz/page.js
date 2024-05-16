@@ -125,9 +125,7 @@ export default function Home() {
         }
       }
     }
-/*
-    alert('A1 ' + a1count + ', A2 ' + a2count + ', A3 ' + a3count + ', A4 ' + a4count); //test to display the calculated values
-*/
+
         var maxscore = Math.max(a1count,a2count,a3count,a4count); //finds the highest value out of the questions
 
         //displays the major with the highest score corelated to the answer count
@@ -217,7 +215,6 @@ export default function Home() {
           setMajor("Radiation Health Physics");
         }
   }
-
 
   //Quiz Form questions, buttons, and output fields
   return (
@@ -430,16 +427,7 @@ export default function Home() {
         {/* Output - text box link */}
         <div id="answer"> &nbsp;<a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={selectedInfo.link}>{selectedInfo.name}</a></div>
 
-        {/* Experimental drop down list for testing
-        <div className='flex flex-col items-center p-8' >
-      
-        <select name="majors" id="majorsDropdown" onChange={changeHandler}>{majorsList.map(m => <option key={m.name} value={m.name}>{m.name}</option>)}
-        </select>
-        </div>
-        */}
-
       </div>
-
     </main>
   )
 }

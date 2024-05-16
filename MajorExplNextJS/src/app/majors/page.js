@@ -11,11 +11,7 @@ import majorsList from './majorsList.json'
 // .then(json => setData(json))
 // .catch(err => console.err(err))
 
-
-
 // https://www.geeksforgeeks.org/how-to-use-html-select-tag-in-reactjs/
-
-
 
 export default function Home() {
 
@@ -37,7 +33,6 @@ export default function Home() {
 
         <select name="majors" id="majorsDropdown" onChange={onOptionChangeHandler} className="w-1/5 inline-flex align-left gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
           {majorsList.map(m => <option key={m.name} value={m.name}>{m.name}</option>)}
-          {/* // TODO: add padding around select */}
         </select>
       </div>
 
@@ -126,7 +121,6 @@ export default function Home() {
         </svg>
 
         &nbsp;<a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={selectedMajorInfo.samplePlan}>Sample 4-Year Schedule </a>
-        {/* TODO: make this a clickable link */}
       </div>
       <div className="p-3">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 inline">
@@ -134,15 +128,8 @@ export default function Home() {
         </svg>
 
         &nbsp;<a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={selectedMajorInfo.link}>Major Information </a>
-        {/* TODO: make this a clickable link */}
       </div>
-
-
       </div>
-
-
-
-
     </main >
   )
 }
